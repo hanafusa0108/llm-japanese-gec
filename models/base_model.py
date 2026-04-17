@@ -10,9 +10,5 @@ class BaseModel(ABC):
         pass
 
     @abstractmethod
-    def evaluate(self, test_data):
-        pass
-
-    @abstractmethod
     def predict(self, text):
         pass

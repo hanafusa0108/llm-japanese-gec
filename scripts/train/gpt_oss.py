@@ -129,8 +129,7 @@ if __name__ == "__main__":
                 message, 
                 tokenize=False, 
                 add_generation_prompt=False,
-                # return_dict = True,
-                reasoning_effort = "low",  # ここで設定！
+                reasoning_effort = "low",
             )
 
             outputs.append(prompt)
